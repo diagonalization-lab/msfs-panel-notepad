@@ -54,3 +54,10 @@ ingame-ui#CustomPanel .ingameUiWrapper {
   align-items: stretch !important;
   flex: 1 1 auto !important;
 }
+
+@font-face {
+  font-family: "RobotoMono-Light";
+  src: url("/Fonts/RobotoMono-Light.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
