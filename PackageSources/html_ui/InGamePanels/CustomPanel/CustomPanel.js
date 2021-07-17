@@ -9,6 +9,16 @@ class IngamePanelCustomPanel extends TemplateElement {
         this.m_Footer = document.querySelector("#Footer");
         this.m_Footer.classList.add("hidden");
 
+        const textBuffer = document.getElementById("textBuffer");
+        const lockBuffer = document.getElementById("lockBuffer");
+        lockBuffer.addEventListener("click", () => {
+            textBuffer.readOnly = !textBuffer.readOnly;
+            if (textBuffer.readOnly) {
+                lockBuffer.title = "Unlock Notepad";
+            } else {
+                lockBuffer.title = "Lock Notepad";
+            }
+        });
     }
     initialize() {
     }

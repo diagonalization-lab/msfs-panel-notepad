@@ -26,8 +26,13 @@
 <body class="border-box">
     <ingamepanel-custom>
         <ingame-ui id="CustomPanel" panel-id="PANEL_CUSTOM_PANEL" title="" class="ingameUiFrame panelInvisible" content-fit="true" min-width="160" min-height="90">
+            <div style="background-color: var(--backgroundColorPanel);">
+                <new-push-button id="lockBuffer" class="small" title="Lock Notepad"></new-push-button>
+            </div>
             <div id="CustomPanelWrap">
-                <textarea style=" background-color: var(--backgroundColorPanel); font-family: RobotoMono-Light; font-size: var(--fontSizeParagraph); width: 100%; height: 100%; color: var(--textColor)"></textarea>
+                <textarea
+                  id="textBuffer"
+                  style="background-color: var(--backgroundColorPanel); font-family: RobotoMono-Light; font-size: var(--fontSizeParagraph); width: 100%; height: 100%; color: var(--textColor)"></textarea>
             </div>
             <section id="MainDisplay">
                 header
