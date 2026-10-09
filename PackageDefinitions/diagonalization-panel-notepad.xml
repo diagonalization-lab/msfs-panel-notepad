@@ -9,6 +9,7 @@
 		<VisibleInStore>false</VisibleInStore>
 		<CanBeReferenced>false</CanBeReferenced>
 	</Flags>
+	<PackageOrderHint>MISC</PackageOrderHint>
 	<AssetGroups>
 		<AssetGroup Name="diagonalization-panel-notepad">
 			<Type>SPB</Type>

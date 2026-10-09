@@ -13,12 +13,13 @@
       "package_version": "0.1.12"
     }
   ],
-  "content_type": "",
+  "content_type": "MISC",
   "title": "Panel Notepad",
   "manufacturer": "Diagonalization",
   "creator": "Diagonalization",
   "package_version": "1.0.0",
   "minimum_game_version": "1.8.3",
+  "package_order_hint": "MISC",
   "release_notes": {
     "neutral": {
       "LastUpdate": "",
